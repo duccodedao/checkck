@@ -1,0 +1,21 @@
+{
+  "name": "Check Cookie bởi Sơn Lý Hồng Đức",
+  "description": "Import and export cookie of current website, manage facebook cookie session.",
+  "version": "3.3.14",
+  "icons": { 
+		  "16": "logo1.png",
+          "48": "logo1.png",
+          "128": "logo1.png" },
+  "permissions": [
+	"cookies","activeTab","http://*/*","https://*/*","storage"
+  ],
+  "browser_action": {
+      "default_title": "Check Cookie bởi Sơn Lý Hồng Đức",
+      "default_icon": "logo1.png",
+      "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "manifest_version": 2
+}
